@@ -46,8 +46,8 @@ class AnswerActivity : AppCompatActivity() {
 
     private fun getRandomAnswer():List<String>{
         var answerList = HashMap<String,List<String>>()
-        answerList.put("0",listOf("ic_004_friendship","จัดไปชุดใหญ่ไฟกระพริบ"))
-        answerList.put("1",listOf("ic_005_friendship_1","ดีอย่างงี้ต้องไม่พลาด"))
+        answerList.put("0",listOf("ic_004_friendship","จัดไป"))
+        answerList.put("1",listOf("ic_005_friendship_1","แล้วแต่คุณ"))
         answerList.put("2",listOf("ic_006_friendship_2","ต้องลองดูซักตั้ง"))
         answerList.put("3",listOf("ic_019_mad","อย่าดีกว่ามั้งงงงง"))
         answerList.put("4",listOf("ic_025_hug","โอ๋ๆๆๆๆๆ\nกอดๆ ไม่เป็นไรนะ"))
